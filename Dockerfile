@@ -1,4 +1,4 @@
-FROM gregory90/php:latest
+FROM gregory90/php:5.6
 
 RUN mkdir -p /data/app/cache && mkdir -p /data/app/logs && \
     chown -R www-data:www-data /data/app
