@@ -5,4 +5,5 @@ RUN mkdir -p /data/app/cache && mkdir -p /data/app/logs && \
 
 ADD web/app.php /code/web/app.php
 ADD default /etc/nginx/sites-available/default
+ADD default /etc/nginx/sites-enabled/default
 
